@@ -28,5 +28,6 @@ btnNo.addEventListener("click", () => {
 btnYes.addEventListener("click", () => {
     // Display the message
     alert("Yeeeeeeiiiiii te amo mucho");
+    alert("Salimos este miércoles jejej");
 });
 
