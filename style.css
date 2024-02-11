@@ -15,6 +15,10 @@
     position: absolute;
 }
 
+.btnYes {
+    transform: translate(-100%);
+}
+
 .btnYes:hover,
 .btnNo:hover {
     background-color: hotpink;
