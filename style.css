@@ -1,0 +1,28 @@
+.title {
+    color: red;
+    font-size: 24px;
+    font-family: "Courier New", monospace;
+}
+
+.btnYes,
+.btnNo {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnYes:hover,
+.btnNo:hover {
+    background-color: hotpink;
+}
+
+.container {
+    background-color: #ffc0cb;
+    border: 2px solid #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
