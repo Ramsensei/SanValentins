@@ -7,16 +7,17 @@
 .btnYes,
 .btnNo {
     background-color: pink;
-    color: black;
+    color: rgb(117, 15, 15);
     border: none;
     padding: 20px 40px;
     font-size: 20px;
     cursor: pointer;
     position: absolute;
+    border-radius: 10px;
 }
 
 .btnYes {
-    transform: translate(-100%);
+    transform: translate(-110%);
 }
 
 .btnYes:hover,
