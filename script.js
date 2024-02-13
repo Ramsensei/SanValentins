@@ -6,8 +6,8 @@ const btnYes = document.getElementsByClassName("btnYes")[0];
 // Add event listener for hover
 btnNo.addEventListener("mouseover", () => {
     // Generate random position
-    const randomX = Math.floor(Math.random() * window.innerWidth);
-    const randomY = Math.floor(Math.random() * window.innerHeight);
+    const randomX = Math.floor(Math.random() * 0.95 * window.innerWidth);
+    const randomY = Math.floor(Math.random() * 0.95 * window.innerHeight);
 
     // Set the button's position
     btnNo.style.left = `${randomX}px`;

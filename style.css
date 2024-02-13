@@ -12,7 +12,7 @@
     padding: 20px 40px;
     font-size: 20px;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     border-radius: 10px;
 }
 
